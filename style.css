@@ -23,18 +23,55 @@ margin-right:40px;
 
 .first-box-container {
 width: 200px;
-height: 100px;
+height: 150px;
 background-color: red;
+border-style: solid;
+border-width:10px;
+border-color:green;
+display: flex;
+align-items: center;
+justify-content: center 
+}
+
+.first-box-text {
+text-align:center;
+text-transform: uppercase
 }
 
 .second-box-container {
 width: 200px;
-height: 100px;
+height: 150px;
 background-color: yellow;
+border-style: solid;
+border-width:10px;
+border-color:red;
+display: flex;
+align-items: center;
+justify-content: center 
+}
+
+.second-box-text {
+text-align:center;
+text-transform: uppercase;
 }
 
 .third-box-container {
 width: 200px;
-height: 100px;
+height: 150px;
 background-color: green;
+border-style: solid;
+border-width:10px;
+border-color:yellow;
+display: flex;
+align-items: center;
+justify-content: center 
+}
+
+.third-box-text {
+    text-align:center;
+    text-transform: uppercase;
+    }
+
+.teksti {
+    color: blue;
 }
